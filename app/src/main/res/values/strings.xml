@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DigitalConstruction</string>
+
+    <string-array name="data_name">
+        <item>Telkom Tower</item>
+        <item>Bank Negara Indonesia</item>
+        <item>Keraton</item>
+        <item>Raffles Jakarta</item>
+        <item>Wisma Mulia</item>
+    </string-array>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5B3399"
-    tools:context=".Register2">
+    tools:context=".registrasi.Register2">
 
     <LinearLayout
         android:id="@+id/linearLayout"

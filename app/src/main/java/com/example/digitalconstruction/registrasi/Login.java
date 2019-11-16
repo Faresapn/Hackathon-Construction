@@ -30,13 +30,13 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Login extends AppCompatActivity implements View.OnClickListener{
     private EditText edtEmail,edtPass;
      Button btnMasuk;
-    private DatabaseReference mDatabase;
+    private FirebaseDatabase mDatabase;
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mDatabase = FirebaseDatabase.getInstance();
         mAuth = FirebaseAuth.getInstance();
 
         edtEmail = findViewById(R.id.email);
@@ -81,7 +81,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
     private void writeNewAdmin(String userId, String name, String email) {
         Admin admin = new Admin(name, email);
 
-        mDatabase.child("admins").child(userId).setValue(admin);
+        mDatabase.getReference().child("admins").child(userId).setValue(admin);
     }
     private String usernameFromEmail(String email) {
         if (email.contains("@")) {

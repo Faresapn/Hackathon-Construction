@@ -5,19 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5B3399"
-    tools:context=".Register">
+    tools:context=".registrasi.Register">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorActive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:src="@drawable/outline_arrow_back_ios_white_18dp"
+            >
+
+
+        </ImageView>
+    </Toolbar>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="250dp"
         android:layout_height="37dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <Button
             android:id="@+id/button3"
@@ -51,11 +68,11 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-
+            android:textColor="#fff"
             android:backgroundTint="#fff"
             android:ems="10"
             android:hint="@string/nama"
@@ -64,12 +81,13 @@
             android:textColorHint="#fff" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
+            android:textColor="#fff"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
@@ -77,22 +95,24 @@
             android:textColorHint="#fff" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
             android:hint="@string/password"
+            android:textColor="#fff"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="#fff" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/passwordulang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textColor="#fff"
             android:backgroundTint="#fff"
             android:ems="10"
             android:hint="@string/masukan_ulang_password"
@@ -101,24 +121,27 @@
             android:textColorHint="#fff" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/skill"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
             android:hint="@string/skill"
+
             android:inputType="textPersonName"
             android:padding="10dp"
+            android:textColor="#fff"
             android:textColorHint="#fff" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/nope"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
+            android:textColor="#fff"
             android:hint="@string/no_handphone"
             android:inputType="phone"
             android:padding="10dp"
@@ -130,6 +153,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="50dp"
             android:layout_weight="2"
+
             android:background="@drawable/round"
             android:textColor="#5B3399"
             android:text="@string/daftar" />

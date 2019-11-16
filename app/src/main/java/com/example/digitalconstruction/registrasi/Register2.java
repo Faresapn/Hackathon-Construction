@@ -1,8 +1,10 @@
-package com.example.digitalconstruction;
+package com.example.digitalconstruction.registrasi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.digitalconstruction.R;
 
 public class Register2 extends AppCompatActivity {
 

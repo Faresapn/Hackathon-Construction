@@ -8,4 +8,30 @@
         <item>Raffles Jakarta</item>
         <item>Wisma Mulia</item>
     </string-array>
+
+    <string-array name="data_detail">
+        <item>Pekerjaan awal</item>
+        <item>Pekerjaan pondasi</item>
+        <item>Pekerjaan stuktur</item>
+        <item>Pekerjaan dinding</item>
+        <item>Pekerjaan kusen, pintu, dan jendela</item>
+        <item>Pekerjaan rangka atap</item>
+        <item>Pekerjaan plumbling, mekanikal dan elektrikal</item>
+        <item>Pekerjaan finishing</item>
+        <item>Pekerjaan tambahan</item>
+        <item>Pembersihan</item>
+    </string-array>
+    <string-array name="colors">
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+
+    </string-array>
 </resources>

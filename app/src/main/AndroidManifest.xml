@@ -9,23 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity android:name=".Calendar.Calendar_Activity2"></activity>
         <activity android:name=".Proses" />
         <activity android:name=".AktivitasFragment" />
         <activity android:name=".Calendar.Calendar_Activity" />
-        <activity android:name=".Register2" />
         <activity android:name=".activity.StartRegisterActivity" />
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.WelcomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-=======
-
-        <activity android:name=".registrasi.Register2"></activity>
-        <activity android:name=".registrasi.Register" > </activity>
-        <activity android:name=".registrasi.Login" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,13 +24,6 @@
         </activity>
 
 
-        <activity android:name=".activity.StartRegisterActivity"></activity>
-        <activity android:name=".activity.MainActivity"/>
-            <activity android:name=".activity.WelcomeActivity" >
-
->>>>>>> b414288e4bc7a4a6ba2502b72248c7fe5ae793a2
-
-        </activity>
     </application>
 
 </manifest>

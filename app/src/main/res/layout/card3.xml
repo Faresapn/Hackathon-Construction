@@ -12,7 +12,8 @@
     android:layout_marginBottom="4dp"
     android:elevation="8dp"
     card_view:cardCornerRadius="8dp"
-    android:layout_below="@+id/shimmer_grid">
+    android:layout_below="@+id/about"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -30,7 +31,7 @@
             android:src="@drawable/constr"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="0.023"
+            card_view:layout_constraintHorizontal_bias="0.0"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             card_view:layout_constraintVertical_bias="0.166" />
@@ -44,7 +45,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:layout_toEndOf="@+id/img_act"
-            android:text="The importance of work safety"
+            android:text="The importance of safety"
             android:textColor="#434248"
             android:textSize="16sp"
             card_view:layout_constraintBottom_toBottomOf="parent"

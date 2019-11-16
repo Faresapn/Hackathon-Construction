@@ -40,7 +40,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:padding="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/builder" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -77,14 +77,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:padding="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/checklist" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
-                        android:text="Talent Manager"
+                        android:text="Manage Project"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="10sp" />
@@ -122,14 +122,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:padding="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/rumahh" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
-                        android:text="Talent Manager"
+                        android:text="Building Standards"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="10sp"/>
@@ -137,6 +137,7 @@
             </FrameLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/shop"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_margin="5dp"
@@ -159,14 +160,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:padding="5dp"
-                        android:src="@drawable/ic_home_black_24dp" />
+                        android:src="@drawable/hook" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"
-                        android:text="Talent Manager"
+                        android:text="Sewa Alat dan Bahan"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textSize="10sp" />

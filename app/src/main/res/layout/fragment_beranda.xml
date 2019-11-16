@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".fragment.BerandaFragment">
+    tools:context=".fragment.BerandaFragment"
+    >
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f7f7f7"
         android:fillViewport="true"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="50dp">
 
         <RelativeLayout
             android:id="@+id/headerView"
@@ -92,18 +94,21 @@
                 layout="@layout/shimmer_grid">
 
             </include>
-            <androidx.recyclerview.widget.RecyclerView
+
+            <TextView
+                android:id="@+id/about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/shimmer_grid"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:id="@+id/recyclerCategory1"
-                android:scrollbars="none"
-                android:layout_marginTop="10dp"/>
+                android:text="About"
+                android:textColor="@color/colorActive"
+                android:textSize="20sp"
+                android:layout_marginStart="8dp"
+                android:layout_below="@id/shimmer_grid" />
+
             <include
                 android:id="@+id/card"
                 layout="@layout/card3"/>
+
 
 
         </RelativeLayout>

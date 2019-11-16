@@ -26,7 +26,7 @@
             android:layout_weight="1"
             android:background="#BDADD6"
             android:fontFamily="roboto"
-            android:text="PT. PP"
+            android:text="@string/pt_pp"
             android:textColor="#5B3399"
             android:textSize="18sp" />
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#ffffff"
-            android:text="User"
+            android:text="@string/user"
             android:textColor="#5B3399" />
     </LinearLayout>
 
@@ -58,7 +58,7 @@
 
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="Nama "
+            android:hint="@string/nama"
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColorHint="#fff" />
@@ -70,7 +70,7 @@
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="Email "
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
 
@@ -83,7 +83,7 @@
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="#fff" />
@@ -95,7 +95,7 @@
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="Masukan Ulang Password"
+            android:hint="@string/masukan_ulang_password"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="#fff" />
@@ -107,7 +107,7 @@
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="Skill"
+            android:hint="@string/skill"
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColorHint="#fff" />
@@ -119,7 +119,7 @@
             android:layout_weight="1"
             android:backgroundTint="#fff"
             android:ems="10"
-            android:hint="No Handphone "
+            android:hint="@string/no_handphone"
             android:inputType="phone"
             android:padding="10dp"
             android:textColorHint="#fff" />
@@ -132,6 +132,6 @@
             android:layout_weight="2"
             android:background="@drawable/round"
             android:textColor="#5B3399"
-            android:text="Daftar" />
+            android:text="@string/daftar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,4 +3,14 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pt_pp">PT. PP</string>
+    <string name="user">User</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masukan_ulang_password">Masukan Ulang Password</string>
+    <string name="skill">Skill</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="daftar">Daftar</string>
+    <string name="jabatan">Jabatan</string>
 </resources>

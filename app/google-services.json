@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "711004025816",
+    "firebase_url": "https://digitalch-68c9a.firebaseio.com",
+    "project_id": "digitalch-68c9a",
+    "storage_bucket": "digitalch-68c9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711004025816:android:a0883d3c260e1206ad78ad",
+        "android_client_info": {
+          "package_name": "com.example.digitalconstruction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711004025816-2n39b54inmpg6hub3q89fa56epeej6jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitalconstruction",
+            "certificate_hash": "2c5b4ec8661c10457e47541d6e8d4fd879366916"
+          }
+        },
+        {
+          "client_id": "711004025816-dpd82ls0t6ms6am7tdilvh4l1q0gnt4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoFUN0obRDRaWq30MheyMO8ByseSLUrW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711004025816-dpd82ls0t6ms6am7tdilvh4l1q0gnt4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

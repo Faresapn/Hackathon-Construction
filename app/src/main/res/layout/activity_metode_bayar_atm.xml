@@ -26,14 +26,15 @@
 
     </Toolbar>
 
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="#000"
 
-        ></view>
+        ></View>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/bni"
         android:layout_width="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
@@ -71,6 +72,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
+        android:id="@+id/bca"
         android:layout_width="wrap_content"
        android:layout_marginLeft="30dp"
         android:layout_marginBottom="10dp"
@@ -107,6 +109,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
+        android:id="@+id/mandiri"
         android:layout_width="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginBottom="10dp"
@@ -143,6 +146,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
+        android:id="@+id/bri"
         android:layout_width="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_height="wrap_content" >

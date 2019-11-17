@@ -1,6 +1,32 @@
 <resources>
+    <array name="rent_image">
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+        <item>@drawable/imgrent</item>
+    </array>
+
     <string name="app_name">DigitalConstruction</string>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pt_pp">PT. PP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user">User</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masukan_ulang_password">Masukan Ulang Password</string>
+    <string name="skill">Skill</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="daftar">Daftar</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="masuk">Masuk</string>
     <string-array name="data_name">
         <item>Telkom Tower</item>
         <item>Bank Negara Indonesia</item>
@@ -21,6 +47,7 @@
         <item>Pekerjaan tambahan</item>
         <item>Pembersihan</item>
     </string-array>
+
     <string-array name="colors">
         <item>#1BCFB4</item>
         <item>#1BCFB4</item>
@@ -34,18 +61,6 @@
         <item>#E56464</item>
 
     </string-array>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="pt_pp">PT. PP</string>
-    <string name="user">User</string>
-    <string name="nama">Nama</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="masukan_ulang_password">Masukan Ulang Password</string>
-    <string name="skill">Skill</string>
-    <string name="no_handphone">No Handphone</string>
-    <string name="daftar">Daftar</string>
-    <string name="jabatan">Jabatan</string>
 
     <string-array name="rent_kota">
         <item>Jakarta</item>
@@ -85,7 +100,6 @@
         <item>15 Unit</item>
         <item>15 Unit</item>
     </string-array>
-
     <string-array name="rent_jam">
         <item>25 Jam</item>
         <item>25 Jam</item>
@@ -98,7 +112,6 @@
         <item>25 Jam</item>
         <item>25 Jam</item>
     </string-array>
-
     <string-array name="rent_name">
         <item>Cartepillar Shovel CS300</item>
         <item>Cartepillar Shovel CS300</item>
@@ -111,17 +124,4 @@
         <item>Cartepillar Shovel CS300</item>
         <item>Cartepillar Shovel CS300</item>
     </string-array>
-    <array name="rent_image">
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-    </array>
-    <string name="masuk">Masuk</string>
 </resources>

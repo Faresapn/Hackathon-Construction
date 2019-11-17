@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.digitalconstruction.Calendar.Calendar_Activity;
 import com.example.digitalconstruction.Data.Conversation;
 import com.example.digitalconstruction.Data.Items;
 import com.example.digitalconstruction.R;
@@ -25,7 +26,7 @@ public class DetailRentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_rent);
 
-        Items detailitems = getIntent().getParcelableExtra("data");
+        final Items detailitems = getIntent().getParcelableExtra("data");
 
         detailNama = findViewById(R.id.detail_items_nama);
         detailHarga = findViewById(R.id.detail_items_harga);
@@ -68,7 +69,21 @@ public class DetailRentActivity extends AppCompatActivity {
 
         int Image = detailitems.getImg();
         Glide.with(this).load(Image).into(detailImage);
-
+        btn_RentNow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Items mItems = new Items();
+                mItems.setImg(detailitems.getImg());
+                mItems.setNama(detailitems.getNama());
+                mItems.setHarga(detailitems.getHarga());
+                mItems.setKota(detailitems.getKota());
+                mItems.setJam(detailitems.getJam());
+                mItems.setUnit(detailitems.getUnit());
+                Intent pindahchat = new Intent(DetailRentActivity.this, Calendar_Activity.class);
+                pindahchat.putExtra("data",mItems);
+                startActivity(pindahchat);
+            }
+        });
         btn_contact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

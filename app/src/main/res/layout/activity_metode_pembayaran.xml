@@ -43,6 +43,7 @@
     </View>
 
     <LinearLayout
+        android:id="@+id/atm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -82,6 +83,7 @@
 
     </View>
     <LinearLayout
+        android:id="@+id/bayarlangsung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"

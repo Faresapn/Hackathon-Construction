@@ -36,7 +36,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/bni"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" >
@@ -74,7 +74,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/bca"
         android:layout_width="wrap_content"
-       android:layout_marginLeft="30dp"
+       android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" >
         <LinearLayout
@@ -111,7 +111,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/mandiri"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" >
         <LinearLayout
@@ -148,7 +148,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/bri"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
         android:layout_height="wrap_content" >
         <LinearLayout
             android:layout_width="wrap_content"

@@ -17,7 +17,7 @@ import com.example.digitalconstruction.R;
 import java.util.concurrent.TimeUnit;
 
 public class Detail_Rent extends AppCompatActivity {
-    TextView noPesanan,nameProduct,location,timerent;
+    TextView noPesanan,nameProduct,location,timerent,harga;
     Button bayar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class Detail_Rent extends AppCompatActivity {
         location  = findViewById(R.id.location);
         timerent = findViewById(R.id.timeRent);
         bayar = findViewById(R.id.button5);
+        harga = findViewById(R.id.hargarent);
         final Items detailitems = getIntent().getParcelableExtra("data");
         final long datepinjam = getIntent().getLongExtra("datepinjam",-1);
         final long datekembali = getIntent().getLongExtra("datekembali",-1);
@@ -41,6 +42,8 @@ public class Detail_Rent extends AppCompatActivity {
         nameProduct.setText(detailitems.getNama());
         location.setText("Lokasi : " +detailitems.getKota());
         timerent.setText("Waktu Sewa : " + diffInDays + " Hari ( " + diffInHours +" )");
+        harga.setText("Total harga : " + 1000000*diffInDays);
+
         bayar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

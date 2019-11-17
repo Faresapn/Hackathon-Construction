@@ -34,12 +34,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_width="322dp"
+        android:layout_height="252dp"
         android:layout_marginTop="44dp"
         android:background="#000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" >
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -48,15 +50,13 @@
                 android:id="@+id/noPesanan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="200dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginEnd="329dp"
                 android:gravity="end"
                 android:text="TextView"
                 android:textAlignment="viewEnd"
                 android:textColor="#5B3399"
                 android:textSize="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,15 +64,13 @@
                 android:id="@+id/nameProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="130dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="329dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
 
                 android:text="TextView"
                 android:textAlignment="viewStart"
                 android:textColor="#5B3399"
                 android:textSize="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/noPesanan" />
 
@@ -80,15 +78,13 @@
                 android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="70dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="36dp"
 
-                android:layout_marginEnd="329dp"
                 android:text="TextView"
                 android:textAlignment="viewStart"
                 android:textColor="#5B3399"
                 android:textSize="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nameProduct" />
 
@@ -96,17 +92,34 @@
                 android:id="@+id/timeRent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="130dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginEnd="329dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="TextView"
                 android:textAlignment="center"
                 android:textColor="#5B3399"
                 android:textSize="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/location" />
+                app:layout_constraintTop_toBottomOf="@+id/location"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/hargarent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#5B3399"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
@@ -116,7 +129,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="157dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="35dp"
         android:background="@drawable/buttonless"
         android:text="Bayar"
@@ -124,8 +138,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

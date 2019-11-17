@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.digitalconstruction.Adapter.ItemAdapter;
 import com.example.digitalconstruction.Data.Items;
 import com.example.digitalconstruction.R;
+import com.example.digitalconstruction.fragment.BerandaFragment;
 
 import java.util.ArrayList;
 
@@ -45,6 +46,8 @@ public class RentActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(RentActivity.this, MainActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

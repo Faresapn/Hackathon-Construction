@@ -17,11 +17,7 @@
         <activity android:name=".Pembayaran" />
         <activity android:name=".MetodeBayarAtm" />
         <activity android:name=".MetodePembayaran">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Tagihan" />
         <activity android:name=".registrasi.Register2" />
@@ -33,7 +29,13 @@
         <activity android:name=".Calendar.Calendar_Activity"></activity>
         <activity android:name=".activity.StartRegisterActivity" />
         <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.WelcomeActivity"></activity>
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

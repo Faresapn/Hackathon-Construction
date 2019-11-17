@@ -1,15 +1,11 @@
 <resources>
     <array name="rent_image">
         <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
-        <item>@drawable/imgrent</item>
+        <item>@drawable/gambardua</item>
+        <item>@drawable/gambartiga</item>
+        <item>@drawable/gambarempat</item>
+        <item>@drawable/gambarlima</item>
+        <item>@drawable/gambarenam</item>
     </array>
 
     <string name="app_name">DigitalConstruction</string>
@@ -64,64 +60,44 @@
 
     <string-array name="rent_kota">
         <item>Jakarta</item>
+        <item>Kalimantan</item>
+        <item>Sumatera</item>
+        <item>Bandung</item>
         <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
+        <item>Klaten</item>
     </string-array>
 
     <string-array name="rent_harga">
         <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
-        <item>Rp 2.100.000</item>
+        <item>Rp 1.200.000</item>
+        <item>Rp 3.400.000</item>
+        <item>Rp 2.550.000</item>
+        <item>Rp 4.650.000</item>
         <item>Rp 2.100.000</item>
     </string-array>
 
     <string-array name="rent_unit">
         <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
-        <item>15 Unit</item>
+        <item>13 Unit</item>
+        <item>09 Unit</item>
+        <item>31 Unit</item>
+        <item>11 Unit</item>
+        <item>21 Unit</item>
     </string-array>
     <string-array name="rent_jam">
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
-        <item>25 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
+        <item>24 Jam</item>
     </string-array>
     <string-array name="rent_name">
         <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
-        <item>Cartepillar Shovel CS300</item>
+        <item>Bulldozer</item>
+        <item>Backhoe</item>
+        <item>Motor Grader</item>
+        <item>Compactor</item>
+        <item>Scania Truck</item>
     </string-array>
 </resources>

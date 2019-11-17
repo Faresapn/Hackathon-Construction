@@ -96,19 +96,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:text="No Rek BCA :"
+                app:layout_constraintEnd_toStartOf="@+id/textView14"
+                app:layout_constraintHorizontal_bias="0.333"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view">
 
             </TextView>
 
             <TextView
+                android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textColor="#000"
                 android:text="9492923823274 (Indrawaty Asry)"
+                android:textColor="#000"
                 app:layout_constraintEnd_toEndOf="@+id/view"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6"></TextView>
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.example.digitalconstruction.R;
 
 public class StartRegisterActivity extends AppCompatActivity {
-    Button btn_login;
+    Button btn_login, btn_signup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,15 @@ public class StartRegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent pindahBeranda = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(pindahBeranda);
+            }
+        });
+
+        btn_signup = findViewById(R.id.btnregis);
+        btn_signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pindahcoba = new Intent(getApplicationContext(),RentActivity.class);
+                startActivity(pindahcoba);
             }
         });
     }

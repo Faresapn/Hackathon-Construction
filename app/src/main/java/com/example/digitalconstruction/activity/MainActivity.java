@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
         mList.add(new LaporanFragment());
         mList.add(new ProfilFragment());
 
-        //iyaaaa
-
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setOnPageChangeListener(this);
         PageAdapter pageAdapter = new PageAdapter(getSupportFragmentManager(), mList);

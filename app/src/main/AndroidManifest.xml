@@ -11,10 +11,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.DetailRentActivity"></activity>
         <activity android:name=".activity.RentActivity" />
-        <activity android:name=".Register2" />
-        <activity android:name=".Register" />
-        <activity android:name=".Login" />
         <activity android:name=".Data.Conversation" />
+
+        <activity android:name=".Pembayaran"></activity>
+        <activity android:name=".MetodeBayarAtm" />
+        <activity android:name=".MetodePembayaran" />
+        <activity android:name=".Tagihan" />
+        <activity android:name=".registrasi.Register2" />
+        <activity android:name=".registrasi.Register" />
+        <activity android:name=".registrasi.Login"/>
+
+        <activity android:name=".Calendar.Calendar_Activity2"></activity>
+        <activity android:name=".Proses" />
+        <activity android:name=".AktivitasFragment" />
+        <activity android:name=".Calendar.Calendar_Activity" />
         <activity android:name=".activity.StartRegisterActivity" />
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.WelcomeActivity">
@@ -24,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

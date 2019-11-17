@@ -11,7 +11,7 @@
         android:layout_height="?actionBarSize"
         app:elevation="0dp">
         <include
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar21"
             layout="@layout/toolbar"/>
     </com.google.android.material.appbar.AppBarLayout>
     <include layout="@layout/content_conversation" />

@@ -1,6 +1,39 @@
 <resources>
     <string name="app_name">DigitalConstruction</string>
 
+    <string-array name="data_name">
+        <item>Telkom Tower</item>
+        <item>Bank Negara Indonesia</item>
+        <item>Keraton</item>
+        <item>Raffles Jakarta</item>
+        <item>Wisma Mulia</item>
+    </string-array>
+
+    <string-array name="data_detail">
+        <item>Pekerjaan awal</item>
+        <item>Pekerjaan pondasi</item>
+        <item>Pekerjaan stuktur</item>
+        <item>Pekerjaan dinding</item>
+        <item>Pekerjaan kusen, pintu, dan jendela</item>
+        <item>Pekerjaan rangka atap</item>
+        <item>Pekerjaan plumbling, mekanikal dan elektrikal</item>
+        <item>Pekerjaan finishing</item>
+        <item>Pekerjaan tambahan</item>
+        <item>Pembersihan</item>
+    </string-array>
+    <string-array name="colors">
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#1BCFB4</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+        <item>#E56464</item>
+
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pt_pp">PT. PP</string>

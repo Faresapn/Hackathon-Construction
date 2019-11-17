@@ -1,5 +1,6 @@
 package com.example.digitalconstruction.Calendar;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +16,7 @@ import com.example.digitalconstruction.R;
 import java.text.DateFormat;
 import java.util.Calendar;
 
-public class Calendar_Activity2 extends AppCompatActivity {
+public class Calendar_Activity2 extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

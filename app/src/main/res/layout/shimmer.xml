@@ -17,16 +17,15 @@
     android:layout_marginBottom="10dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="1dp">
-    <com.facebook.shimmer.ShimmerFrameLayout
+    <FrameLayout
         android:id="@+id/shimmer_view_container2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:shimmer_duration="6000">
+        android:layout_height="match_parent">
 
         <RelativeLayout
             android:background="@drawable/catepillar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-    </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
 </androidx.cardview.widget.CardView>
 </FrameLayout>

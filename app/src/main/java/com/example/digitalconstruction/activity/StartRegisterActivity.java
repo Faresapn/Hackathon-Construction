@@ -8,6 +8,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.digitalconstruction.R;
+import com.example.digitalconstruction.registrasi.Login;
+import com.example.digitalconstruction.registrasi.Register;
 
 public class StartRegisterActivity extends AppCompatActivity {
     Button btn_login, btn_signup;
@@ -21,7 +23,7 @@ public class StartRegisterActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahBeranda = new Intent(getApplicationContext(),MainActivity.class);
+                Intent pindahBeranda = new Intent(getApplicationContext(), Login.class);
                 startActivity(pindahBeranda);
             }
         });
@@ -30,7 +32,7 @@ public class StartRegisterActivity extends AppCompatActivity {
         btn_signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahcoba = new Intent(getApplicationContext(),RentActivity.class);
+                Intent pindahcoba = new Intent(getApplicationContext(), Register.class);
                 startActivity(pindahcoba);
             }
         });

@@ -32,7 +32,7 @@
         android:text="Pilih metode Pembayaran :"
         android:textSize="20sp" />
 
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="#000"
@@ -40,7 +40,7 @@
         >
 
 
-    </view>
+    </View>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:layout_height="35dp"
             app:srcCompat="@drawable/outline_navigate_next_black_48dp" />
     </LinearLayout>
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="#000"
@@ -80,7 +80,7 @@
         >
 
 
-    </view>
+    </View>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             app:srcCompat="@drawable/outline_navigate_next_black_48dp" />
 
     </LinearLayout>
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginTop="5dp"
@@ -120,5 +120,5 @@
         >
 
 
-    </view>
+    </View>
 </LinearLayout>

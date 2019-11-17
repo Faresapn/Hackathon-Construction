@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -19,6 +20,7 @@ import java.util.List;
 public class Conversation extends BaseActivity {
 
     private RecyclerView mRecyclerView;
+    Toolbar toolbar;
     private ConversationRecyclerView mAdapter;
     private EditText text;
     private Button send;
@@ -28,7 +30,20 @@ public class Conversation extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversation);
 
-        setupToolbarWithUpNav(R.id.toolbar, "Julia Harriss", R.drawable.ic_arrow_back_black_24dp);
+        setupToolbarWithUpNav(R.id.toolbar21, "Rahman", R.drawable.ic_arrow_back_black_24dp);
+
+        toolbar = findViewById(R.id.toolbar21);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back_black_24dp));
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
@@ -76,7 +91,7 @@ public class Conversation extends BaseActivity {
     public List<ChatData> setData(){
         List<ChatData> data = new ArrayList<>();
 
-        String text[] = {"15 September","Hi, Julia! How are you?", "Hi, Joe, looks great! :) ", "I'm fine. Wanna go out somewhere?", "Yes! Coffe maybe?", "Great idea! You can come 9:00 pm? :)))", "Ok!", "Ow my good, this Kit is totally awesome", "Can you provide other kit?", "I don't have much time, :`("};
+        String text[] = {"15 September","Halo pak, selamat pagi!", "Halo selamat pagi! ", "Ada yang bisa kami bantu?", "Iya, kami ingin menyewa ekscavator", "Siaap, kira kira butuh berapa ya?", "Ok!", "Kita Butuh 5 unit pak", "Apakah tersedia?", "Iya tersedia"};
         String time[] = {"", "5:30pm", "5:35pm", "5:36pm", "5:40pm", "5:41pm", "5:42pm", "5:40pm", "5:41pm", "5:42pm"};
         String type[] = {"0", "2", "1", "1", "2", "1", "2", "2", "2", "1"};
 
